@@ -48,7 +48,7 @@ namespace FireSharp
 
                 if (redirectCount > MaximumAutomaticRedirections) 
                 {
-                   throw new WebException("Too many automatic redirections were attempted.");
+                   throw new Exception("Too many automatic redirections were attempted.");
                 }
 
                 request.RequestUri = response.Headers.Location;
