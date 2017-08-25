@@ -104,3 +104,7 @@ UpgradeLog*.XML
 *.nupkg
 .vs/
 .idea/
+
+*.userprefs
+
+
