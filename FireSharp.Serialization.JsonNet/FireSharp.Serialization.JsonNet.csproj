@@ -12,8 +12,6 @@
   </PropertyGroup>
   <ItemGroup>
     <ProjectReference Include="..\FireSharp\FireSharp.csproj">
-      <Project>{67B7EA6F-DC34-4F48-8331-58DF137D78C9}</Project>
-      <Name>FireSharp</Name>
     </ProjectReference>
     <PackageReference Include="RestSharp" Version="104.4.0" />
   </ItemGroup>
